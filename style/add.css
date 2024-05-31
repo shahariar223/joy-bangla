@@ -1,0 +1,23 @@
+nav > ul{
+    /* display: inline-block; */
+    display: flex;
+}
+nav li{
+  list-style: none;
+   margin: 10px;
+   font-size: 30px;   
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(6, 5, 112, 0.836);
+}
+nav li:hover{
+    background-color: rgba(122, 10, 29, 0.61);
+    border: 5px solid rgba(255, 255, 0, 0.452) ;
+    border-radius: 50px;
+}
+.cap{
+    text-align: center;
+    font-size: 40px;
+}
+
